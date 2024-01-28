@@ -1,0 +1,225 @@
+﻿@model ForumIT.Models.TblBaiViet
+@using ForumIT.Models;
+@using ForumIT.Models.Domain;
+@using Microsoft.AspNetCore.Identity;
+@using Microsoft.EntityFrameworkCore;
+@inject UserManager<User> userManager
+
+@{
+    ForumITContext db = new ForumITContext();
+    string userName = User.Identity.Name;
+    // ViewData["Title"] = "PostDetail";
+    //thời điểm hiện tại vào trang chi tiết
+    DateTime now = DateTime.Now;
+
+    // đếm số bl và số trả lời bl
+    List<TblBinhLuan> lbt = db.TblBinhLuans.Where(x=>x.IdidBaiVietBl==Model.IdBaiViet).ToList();
+    int countBL = lbt.Count();
+
+    int countTL = 0;
+
+    List<TblTraLoiBl> tll = new List<TblTraLoiBl>();
+
+    List<TblTraLoiBl> tbltl = db.TblTraLoiBls.ToList();
+
+    foreach(TblBinhLuan bll in lbt)
+    {
+        foreach(TblTraLoiBl tloi in tbltl)
+        {
+            if (bll.IdBinhLuan == tloi.IdBluanTloi)
+            {
+                countTL++;
+            }
+        }
+    }
+
+}
+@*thêm ảnh vào mục componet để đẩy view cho đẹp*@
+@section Test{
+    <aside class="col-md-3 sidebar97239" style="margin-top:100px">
+        <div class="categori-part329">
+            <img src="/1Forum/image/logoApp.png" alt="Logo" width="200px" height="100px">
+        </div>
+    </aside>
+    }
+
+<div>
+
+    <div class="post-details">
+        <div class="details-header923">
+            <div class="row">
+                <div class="col-md-8">
+                    <div class="post-title-left129">
+                        <h3>@Html.DisplayFor(model => model.Title)</h3><!--cú pháp hiển thị giá trị của thuộc tính Title lên màn hình-->
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="post-que-rep-rihght320">
+                        @*kiểm tra đã có ng đăng nhập vào  chưa và quyền có phải là user ko*@
+                        @if (userName != null && User.IsInRole("user") == true)
+                        {
+                        TblDaLuu dl = new TblDaLuu();
+                        var userss = await userManager.Users.ToListAsync();//tolist...de lay ds ng dung tu csdl co kieu là list<User>
+
+                        var usersInfoo = new List<User>();
+
+
+                        //chuyển đổi list user từ identity sang list dạng thường
+                        foreach (var user in userss)
+                        {
+                            var userInfoo = new User
+                         {
+                                 Id = user.Id,
+                                 UserName = user.UserName,
+                                  Email = user.Email
+                                // Thêm các thông tin khác tùy ý
+                         };
+
+                            usersInfoo.Add(userInfoo);
+                        }
+                        List<User> lstt = usersInfoo.ToList();
+
+                        var idd = userManager.GetUserId(User);
+                        //lấy cÁC TRƯỜNG TTIN ĐỂ TRUYỀN VÀO FORM Ở PARTIal là lưu bv
+                        foreach (var user in lstt)
+                        {
+                            if (user.Id == idd)
+                            {
+                                dl.IdUser = user.Id;
+                            }
+                        }
+
+
+                        dl.IdBaiVietDl = Model.IdBaiViet;
+
+                        @await Html.PartialAsync("PartialCrDlSaved",dl)
+                       
+                    }else{
+                            <div class="ul-list-user-right29">
+                                <img src="/Uploads/@Model.Img" width="200px">
+                            </div>
+                    }
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="post-details-info1982">
+            <p>@Html.DisplayFor(model => model.NoiDung)</p>
+           
+            <hr>
+            <div class="post-footer29032">
+                <div class="l-side2023"> <i class="fa fa-check check2" aria-hidden="true"> solved</i> <a href="#"><i class="fa fa-star star2" aria-hidden="true">  5</i></a> <i class="fa fa-folder folder2" aria-hidden="true"> wordpress</i> <i class="fa fa-clock-o clock2" aria-hidden="true"> 4 min ago</i> <a href="#"><i class="fa fa-commenting commenting2" aria-hidden="true"> 5 answer</i></a> <i class="fa fa-user user2" aria-hidden="true"> 70 views</i> 
+                    
+                </div>
+               
+                <div>Số bình luận: @countBL  ------  Số trả lời: @countTL</div>
+                
+
+                <div class="l-rightside39">
+                    <button type="button" class="tolltip-button thumbs-up2" data-toggle="tooltip" data-placement="bottom" title="Like"><i class="fa fa-thumbs-o-up " aria-hidden="true"></i></button>
+                    <button type="button" class="tolltip-button  thumbs-down2" data-toggle="tooltip" data-placement="bottom" title="Dislike"><i class="fa fa-thumbs-o-down" aria-hidden="true"></i></button> <span class="single-question-vote-result">+22</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <!--dl class="dl-horizontal">
+        <dt>
+            @@Html.DisplayNameFor(model => model.IdBaiViet)
+        </dt>
+        <dd>
+            @@Html.DisplayFor(model => model.IdBaiViet)
+        </dd>
+        <dt>
+            @@Html.DisplayNameFor(model => model.Title)
+        </dt>
+        <dd>
+            @@Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt>
+            @@Html.DisplayNameFor(model => model.Img)
+        </dt>
+        <dd>
+            @@Html.DisplayFor(model => model.Img)
+        </dd>
+        <dt>
+            @@Html.DisplayNameFor(model => model.NoiDung)
+        </dt>
+        <dd>
+            @@Html.DisplayFor(model => model.NoiDung)
+        </dd>
+        <dt>
+            @@Html.DisplayNameFor(model => model.TrangThai)
+        </dt>
+        <dd>
+            @@Html.DisplayFor(model => model.TrangThai)
+        </dd>
+        <dt>
+            @@Html.DisplayNameFor(model => model.IdLdd)
+        </dt>
+        <dd>
+            @@Html.DisplayFor(model => model.IdLdd)
+        </dd>
+        <dt>
+            @@Html.DisplayNameFor(model => model.IdUser)
+        </dt>
+        <dd>
+            @@Html.DisplayFor(model => model.IdUser)
+        </dd>
+        <dt>
+            @@Html.DisplayNameFor(model => model.Ngaydang)
+        </dt>
+        <dd>
+            @@Html.DisplayFor(model => model.Ngaydang)
+        </dd>
+    </!--dl-->
+</div>
+
+<div>
+    @{
+        //UserManager<User> userManager =new UserManager<User>;
+
+        var users = await userManager.Users.ToListAsync();
+
+        var usersInfo = new List<User>();
+
+
+        List<TblBinhLuan> tl = db.TblBinhLuans.Where(m=>m.IdidBaiVietBl==Model.IdBaiViet).ToList();
+
+        @await Html.PartialAsync("PartialListBinhLuan",tl)
+
+        TblBinhLuan bl = new TblBinhLuan();
+
+        foreach (var user in users)
+        {
+            var userInfo = new User
+                {
+                    Id = user.Id,
+                    UserName = user.UserName,
+                    Email = user.Email
+                    // Thêm các thông tin khác tùy ý
+                };
+
+            usersInfo.Add(userInfo);
+        }
+        List<User> lst = usersInfo.ToList();
+
+        var id = userManager.GetUserId(User);
+
+        foreach (var user in lst)
+        {
+            if (user.Id == id)
+            {
+                bl.IdUser = user.Id;
+            }
+        }
+
+        bl.IdidBaiVietBl = Model.IdBaiViet;
+        bl.NgayBl = now;
+
+        @await Html.PartialAsync("PartialCreateCM",bl)
+        
+    }
+    
+
+</div>

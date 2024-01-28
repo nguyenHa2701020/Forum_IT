@@ -1,0 +1,162 @@
+﻿@using ForumIT.Models.Domain;
+@using Microsoft.AspNetCore.Identity;
+@using Microsoft.EntityFrameworkCore;
+@model IEnumerable<ForumIT.Models.TblBaiViet>
+
+@*using X.PagedList.Mvc.Core;
+
+@model X.PagedList.IPagedList<TblBaiViet>
+@**hien thi ten nguoi dung vs bai viet tuong ung **@
+@inject UserManager<User> userManager
+@{
+    ForumITContext db = new ForumITContext();
+    //ViewData["Title"] = "Home";
+}
+
+@section Admin{
+    <div class="row">
+    <div class="col-md-6">
+    </div>
+
+    <div class="col-md-6">
+        <div class="navbar-serch-right-side">
+            <form class="navbar-form" asp-action="Index" asp-controller="Home" >
+                <div class="input-group add-on">
+                        <input class="form-control form-control222" placeholder="Search" name="filter" id="srch-term" type="text" style="width:500px" value="@ViewBag.filter">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default btn-default2913" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+}
+@**hien thi componet loai dien dan**@
+@section Test{
+    <aside class="col-md-3 sidebar97239">
+        <div class="text-center"><h2>Loại Diễn Đàn</h2></div>
+        <div class="categori-part329">
+            @**goi component **@
+            @await Component.InvokeAsync("DienDanTheoLoai")
+        </div>
+    </aside>
+ }
+<!--h1>Số lần truy cập: @ViewBag.VisitCount</!--h1>
+<a asp-action="Index" asp-route-filter="OK">Order BLuan</a>
+<a asp-action="Index" asp-route-filter="oki">Order Tuong Tac</a>
+<a asp-action="Index" asp-route-filter="TruyCap">Order Truy Cap</a>
+<button id="searchButton" onclick="confirmSearch()">Tìm kiếm</button>
+<button style="background-color: @ViewBag.Color ; padding:5px"><a id="filterLink" asp-action="Index" asp-route-filter="@ViewBag.Set" style="text-decoration: none; color:white">Post @ViewBag.Set</a></button>
+<a asp-action="Index" asp-route-filter="Top2">TOP2</a!-->
+@*<b>@ViewBag.Time</b>///<b>@ViewBag.Duration</b>
+<div id="clock"></div>
+<p id="counter"></p>*@
+        @foreach (var item in Model)
+        {
+            var users = await userManager.Users.ToListAsync();
+
+            var usersInfo = new List<User>();
+
+            string name="";
+
+            foreach (var user in users)
+            {
+                var userInfo = new User
+                    {
+                        Id = user.Id,
+                        UserName = user.UserName,
+                        Email = user.Email
+                        // Thêm các thông tin khác tùy ý
+                    };
+
+                usersInfo.Add(userInfo);
+            }
+            List<User> lst = usersInfo.ToList();
+
+            //var id = userManager.GetUserId(User);
+
+            foreach (var user in lst)
+            {
+                if (user.Id == item.IdUser)
+                {
+                    name = user.UserName;
+                }
+            }
+
+            TblLoaiDd xx=new TblLoaiDd();
+            xx=db.TblLoaiDds.Find(item.IdLdd);
+            string tenloai=xx.TenLoaiDd;
+
+            //string ndung = item.NoiDung;
+            //Test Display
+    List<TblBinhLuan> lbt = db.TblBinhLuans.Where(x => x.IdidBaiVietBl == item.IdBaiViet).ToList();
+    int countBL = lbt.Count();
+
+    int countTL = 0;
+
+    List<TblTraLoiBl> tll = new List<TblTraLoiBl>();
+
+    List<TblTraLoiBl> tbltl = db.TblTraLoiBls.ToList();
+
+    foreach (TblBinhLuan bll in lbt)
+    {
+        foreach (TblTraLoiBl tloi in tbltl)
+        {
+            if (bll.IdBinhLuan == tloi.IdBluanTloi)
+            {
+                countTL++;
+            }
+        }
+    }
+            //End
+
+
+
+            <div class="blog-part3903">
+                <img src="/Uploads/@item.Img" alt="Image" class="img-responsive" width="100%" height="400px">
+
+                <div class="blog-details3902">
+                    <h3><span><i class="fa fa-picture-o" aria-hidden="true"></i></span> @item.Title</h3>
+                    <hr>
+                    <div class="ques-icon-info2933"> <a href="#"><i class="fa fa-user" aria-hidden="true"> @name </i></a> 
+                        <a href="#"><i class="fa fa-calendar" aria-hidden="true"> @item.Ngaydang</i></a> 
+                        <a href="#"><i class="fa fa-briefcase" aria-hidden="true"> @tenloai</i></a> 
+                        <a href="#"><i class="fa fa-comments-o" aria-hidden="true">@countBL</i></a> 
+                        <a href="#"><i class="fa fa-eye" aria-hidden="true">@item.TruyCap</i></a> </div>
+                    <p>@item.NoiDung ...</p>
+                    <div class="continue-deatils738">
+                        <a asp-action="PostDetail" asp-controller="PostMN" asp-route-idBV="@item.IdBaiViet"><i class="fa fa-plus" aria-hidden="true"> Continue Reading</i></a>
+                    </div>
+                </div>
+            </div>
+}
+<div class="pagination">
+        @*Html.PagedListPager(Model,page=>Url.Action("Index",new{page=page, filter=ViewBag.Filters}))*@
+    </div>
+
+           
+<script>
+    function confirmSearch() {
+        var searchQuery = prompt("Nhập từ khóa tìm kiếm:");
+        if (searchQuery) {
+            var xhr = new XMLHttpRequest();
+            xhr.onreadystatechange = function () {
+                if (xhr.readyState === 4 && xhr.status === 200) {
+                    // Xử lý phản hồi từ máy chủ (nếu cần)
+                    //alert("Tìm kiếm thành công");
+                    document.getElementById("recordList").innerHTML = xhr.responseText;
+                }
+            };
+            xhr.open("GET", "/Home/Index?filter=" + searchQuery, true);
+            xhr.send();
+        }
+        
+    }
+
+    
+
+
+  
+
+</script>

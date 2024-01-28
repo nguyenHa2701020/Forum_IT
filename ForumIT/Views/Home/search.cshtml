@@ -1,0 +1,54 @@
+﻿@model IEnumerable<ForumIT.Models.TblBaiViet>
+@section Admin{
+    <div class="row">
+    <div class="col-md-6">
+    </div>
+
+    <div class="col-md-6">
+        <div class="navbar-serch-right-side">
+            <form class="navbar-form" asp-action="search" asp-controller="Home" >
+                <div class="input-group add-on">
+                        <input class="form-control form-control222" placeholder="Search" name="filter" id="srch-term" type="text" style="width:500px" value="@ViewBag.filter">
+                    <div class="input-group-btn">
+                        <button class="btn btn-default btn-default2913" type="submit"><i class="glyphicon glyphicon-search"></i></button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+    </div>
+}
+
+@foreach (var item in Model) {
+            <div id="Mini" style=" width: 30%; float: left;margin-bottom: 50px;padding: 50px;height:1000px">
+                <div id="gia">@Html.DisplayFor(modelItem => item.Title)</div>
+                <div id="img">
+                    <img src="/Uploads/@item.Img" style="width: 100px; height: 250px" />
+                </div>
+                <div>@Html.DisplayFor(modelItem => item.NoiDung)</div>
+                <div>@Html.DisplayFor(modelItem => item.Ngaydang)</div>
+        <div class="btn btn-warning"> <a style="cursor:pointer" onclick="deleteItemT(@item.IdBaiViet)">Disable</a></div>
+               
+            </div>
+
+
+}
+<script>
+    function deleteItemT(id) {
+        var getUrl = "/Home/disable/" + id;
+        $.ajax({
+            url: getUrl,
+            type: 'GET',
+            success: function (data) {
+                alert('Disable Success');
+                window.location = "/Home/Index";
+            },
+            error: function (xhr) {
+                alert('error');
+            }
+
+        });
+    }
+
+</script>
+

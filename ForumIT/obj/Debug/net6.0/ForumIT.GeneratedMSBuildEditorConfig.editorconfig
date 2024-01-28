@@ -1,0 +1,177 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = ForumIT
+build_property.RootNamespace = ForumIT
+build_property.ProjectDir = C:\Users\ADMIN\Downloads\TaiLieu\Repo02\ForumIT\ForumIT\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\ADMIN\Downloads\TaiLieu\Repo02\ForumIT\ForumIT
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Admin/HelloAd.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cSGVsbG9BZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Comment/CreateCommment.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ29tbWVudFxDcmVhdGVDb21tbWVudC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Home/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxFcnJvci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Home/search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxzZWFyY2guY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/PostMN/CreatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdE1OXENyZWF0ZVBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/PostMN/GettForIdCho.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdE1OXEdldHRGb3JJZENoby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/PostMN/GettForIdDuyet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdE1OXEdldHRGb3JJZER1eWV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/PostMN/ListPost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdE1OXExpc3RQb3N0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/PostMN/PostDetail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdE1OXFBvc3REZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/PostMN/PostForAdmin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdE1OXFBvc3RGb3JBZG1pbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/PostMN/PostForId.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdE1OXFBvc3RGb3JJZC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/PostMN/PostForIdDuyet.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdE1OXFBvc3RGb3JJZER1eWV0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/PostMN/PostForUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdE1OXFBvc3RGb3JVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/PostMN/UpdatePost.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUG9zdE1OXFVwZGF0ZVBvc3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/SavedMN/ListSaved.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2F2ZWRNTlxMaXN0U2F2ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Shared/Components/DienDanTheoLoai/Default.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcRGllbkRhblRoZW9Mb2FpXERlZmF1bHQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Shared/PartialCrDlSaved.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxDckRsU2F2ZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Shared/PartialCreateCM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxDcmVhdGVDTS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Shared/PartialCreateTraLoiBL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxDcmVhdGVUcmFMb2lCTC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Shared/PartialListBinhLuan.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxMaXN0QmluaEx1YW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Shared/PartialListTraLoiBL.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxMaXN0VHJhTG9pQkwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Shared/PartialUpdateCM.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXFBhcnRpYWxVcGRhdGVDTS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Shared/_LayoutForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXRGb3JtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/TypeMN/CreateLoaiDD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZU1OXENyZWF0ZUxvYWlERC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/TypeMN/DetailLoaiDD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZU1OXERldGFpbExvYWlERC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/TypeMN/ListLoaiDD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZU1OXExpc3RMb2FpREQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/TypeMN/UpdateLoaiDD.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVHlwZU1OXFVwZGF0ZUxvYWlERC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/UserAu/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1XExvZ2luLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/UserAu/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlckF1XFJlZ2lzdGVyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/UserMN/changePass.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1OXGNoYW5nZVBhc3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/UserMN/getProfile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1OXGdldFByb2ZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/UserMN/GetRegisteredUsersInfo.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1OXEdldFJlZ2lzdGVyZWRVc2Vyc0luZm8uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/UserMN/ListUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlck1OXExpc3RVc2VyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ADMIN/Downloads/TaiLieu/Repo02/ForumIT/ForumIT/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-ab1zdh4g76

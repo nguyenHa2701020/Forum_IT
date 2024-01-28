@@ -1,0 +1,89 @@
+﻿@model IEnumerable<ForumIT.Models.TblLoaiDd>
+
+@{
+    //ViewData["Title"] = "ListLoaiDD";
+}
+@section Test{
+    <aside class="col-md-3 sidebar97239" style="margin-top:100px">
+        <div class="categori-part329">
+            <img src="/1Forum/image/logoApp.png" alt="Logo" width="200px" height="100px">
+        </div>
+    </aside>
+    }
+
+<h2>FORUM LIST</h2>
+
+<p>
+    <a asp-action="CreateLoaiDD">Create New</a>
+    <!--a asp-action="ListLoaiDD" asp-route-filter="@ViewBag.Max">@ViewBag.Mess</!--a>
+    <form asp-action="ListLoaiDD" method="get">
+        <input type="text" id="filter" name="filter" value="@ViewBag.search" />
+        <button type="submit">Search</button>
+    </form>
+    <form asp-action="ListLoaiDD" method="get">
+        <input type="number" id="filter" name="filter" value="" />
+        <button type="submit">TOP</button>
+    </form!-->
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th style="text-align: center">
+              FORUM ID 
+            </th>
+            <th style="text-align: center">
+               FORUM NAME
+            </th>
+            <th style="text-align: center">
+                FUNCTION
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdLoaiDd)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TenLoaiDd)
+            </td>
+            <td>
+                    @Html.ActionLink("Update", "UpdateLoaiDD", new {  id=item.IdLoaiDd }) |
+                    @Html.ActionLink("Detail", "DetailLoaiDD", new {  id=item.IdLoaiDd }) |
+                    @Html.ActionLink("Delete", "DeleteLoaiDD", new {  id=item.IdLoaiDd })
+
+                    <!-- <div class="btn btn-warning"> <a style="cursor:pointer" onclick="confirmDeletedType(@item.IdLoaiDd)">Xóa Loại</a></div> -->
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
+
+<script>
+    function confirmDeletedType(id) {
+
+        if (confirm("Bạn có chắc chắn muộn xóa không?")) {
+            deleteItemT(id);
+        } else {
+
+        }
+    }
+
+    function deleteItemT(id) {
+        var getUrl = "/TypeMN/DeleteLoaiDD/" + id;
+        $.ajax({
+            url: getUrl,
+            type: 'GET',
+            success: function (data) {
+                alert('Delete Success');
+                window.location = "/TypeMN/ListLoaiDD";
+            },
+            error: function (xhr) {
+                alert('error');
+            }
+
+        });
+    }
+
+</script>

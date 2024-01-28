@@ -1,0 +1,533 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ForumIT.bundle.scp.css",
+      "PackagePath": "staticwebassets\\ForumIT.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\css\\animate.css",
+      "PackagePath": "staticwebassets\\1Forum\\css\\animate.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\1Forum\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\1Forum\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\css\\editor.css",
+      "PackagePath": "staticwebassets\\1Forum\\css\\editor.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\css\\font-awesome.min.css",
+      "PackagePath": "staticwebassets\\1Forum\\css\\font-awesome.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\css\\loginstyle.css",
+      "PackagePath": "staticwebassets\\1Forum\\css\\loginstyle.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\css\\responsive.css",
+      "PackagePath": "staticwebassets\\1Forum\\css\\responsive.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\css\\style.css",
+      "PackagePath": "staticwebassets\\1Forum\\css\\style.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\FontAwesome - Copy.otf",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\FontAwesome - Copy.otf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\FontAwesome.otf",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\FontAwesome.otf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\batmfa__ - Copy.ttf",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\batmfa__ - Copy.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\batmfa__.ttf",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\batmfa__.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\fontawesome-webfont - Copy.eot",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\fontawesome-webfont - Copy.eot"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\fontawesome-webfont - Copy.svg",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\fontawesome-webfont - Copy.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\fontawesome-webfont - Copy.ttf",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\fontawesome-webfont - Copy.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\fontawesome-webfont - Copy.woff",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\fontawesome-webfont - Copy.woff"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\fontawesome-webfont - Copy.woff2",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\fontawesome-webfont - Copy.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\fontawesome-webfont.eot"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\fontawesome-webfont.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\fonts\\glyphicons-halflings-regular.woff2",
+      "PackagePath": "staticwebassets\\1Forum\\fonts\\glyphicons-halflings-regular.woff2"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\image\\blog-2-806x440.png",
+      "PackagePath": "staticwebassets\\1Forum\\image\\blog-2-806x440.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\image\\blog-3-806x440.jpg",
+      "PackagePath": "staticwebassets\\1Forum\\image\\blog-3-806x440.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\image\\blog-4-806x440.jpg",
+      "PackagePath": "staticwebassets\\1Forum\\image\\blog-4-806x440.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\image\\images.png",
+      "PackagePath": "staticwebassets\\1Forum\\image\\images.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\image\\logo.png",
+      "PackagePath": "staticwebassets\\1Forum\\image\\logo.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\image\\logoApp.png",
+      "PackagePath": "staticwebassets\\1Forum\\image\\logoApp.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\1Forum\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\1Forum\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\js\\editor.js",
+      "PackagePath": "staticwebassets\\1Forum\\js\\editor.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\1Forum\\js\\jquery-3.1.1.min.js",
+      "PackagePath": "staticwebassets\\1Forum\\js\\jquery-3.1.1.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\Bai Dong.png",
+      "PackagePath": "staticwebassets\\Uploads\\Bai Dong.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\CTDT.png",
+      "PackagePath": "staticwebassets\\Uploads\\CTDT.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\Screenshot 2023-10-09 085026.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-10-09 085026.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\Screenshot 2023-10-09 091203.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-10-09 091203.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\Screenshot 2023-10-24 093716.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-10-24 093716.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\Screenshot 2023-11-21 170717.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-11-21 170717.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\Screenshot 2023-11-21 170742.png",
+      "PackagePath": "staticwebassets\\Uploads\\Screenshot 2023-11-21 170742.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\WEF1.png",
+      "PackagePath": "staticwebassets\\Uploads\\WEF1.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\WEF2.png",
+      "PackagePath": "staticwebassets\\Uploads\\WEF2.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\WEF4.png",
+      "PackagePath": "staticwebassets\\Uploads\\WEF4.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\Xe.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\Xe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\anh3.png",
+      "PackagePath": "staticwebassets\\Uploads\\anh3.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\chungkhoan.jpeg",
+      "PackagePath": "staticwebassets\\Uploads\\chungkhoan.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\congnghe.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\congnghe.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\demoban.drawio.png",
+      "PackagePath": "staticwebassets\\Uploads\\demoban.drawio.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\dienthoai.png",
+      "PackagePath": "staticwebassets\\Uploads\\dienthoai.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\dkitin2023.PNG",
+      "PackagePath": "staticwebassets\\Uploads\\dkitin2023.PNG"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\giaoduc.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\giaoduc.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\hptc3.png",
+      "PackagePath": "staticwebassets\\Uploads\\hptc3.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\khảo sát.png",
+      "PackagePath": "staticwebassets\\Uploads\\khảo sát.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\kinhdoanh.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\kinhdoanh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\logoApp.png",
+      "PackagePath": "staticwebassets\\Uploads\\logoApp.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\mayanh.png",
+      "PackagePath": "staticwebassets\\Uploads\\mayanh.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\maytinh.png",
+      "PackagePath": "staticwebassets\\Uploads\\maytinh.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\maytinhh.jpg",
+      "PackagePath": "staticwebassets\\Uploads\\maytinhh.jpg"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\phiếu đánh giá hk2.2022-2023.png",
+      "PackagePath": "staticwebassets\\Uploads\\phiếu đánh giá hk2.2022-2023.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\test.png",
+      "PackagePath": "staticwebassets\\Uploads\\test.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\tien.png",
+      "PackagePath": "staticwebassets\\Uploads\\tien.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\up.drawio.png",
+      "PackagePath": "staticwebassets\\Uploads\\up.drawio.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\Uploads\\điểm danh 2.png",
+      "PackagePath": "staticwebassets\\Uploads\\điểm danh 2.png"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\ADMIN\\Downloads\\TaiLieu\\Repo02\\ForumIT\\ForumIT\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.ForumIT.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.build.ForumIT.props",
+      "PackagePath": "build\\ForumIT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildMultiTargeting.ForumIT.props",
+      "PackagePath": "buildMultiTargeting\\ForumIT.props"
+    },
+    {
+      "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.buildTransitive.ForumIT.props",
+      "PackagePath": "buildTransitive\\ForumIT.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
